@@ -28,10 +28,11 @@ export default function Eggplant() {
         lerp(data.pos.y, -sectionHeight * offset * factor + (state.top.current / state.zoom) * factor, 0.1),
         0
       );
+
       dummy.position.copy(data.pos);
 
       if (i === 0) {
-        dummy.rotation.set(mouse.y, mouse.x, 1);
+        dummy.rotation.set(mouse.y, mouse.x - Math.PI, - Math.PI/4);
       } else if (i === state.eggPlants.length - 1) {
         dummy.rotation.set(0, time, 0);
       } else dummy.rotation.set(time, time, time);

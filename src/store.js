@@ -57,7 +57,7 @@ const state = {
     { offset: 6.3, color: "#2c2c67", height: 20 }
   ],
   eggPlants: [
-    { x: 0, offset: 0.1, pos: new Vector3(), scale: 1.2, factor: 1.8 },
+    { x: 1.3, offset: 0.1, pos: new Vector3(), scale: 1.2, factor: 1.8 },
     { x: 2, offset: 1.1, pos: new Vector3(), scale: 0.8, factor: 2.1 },
     { x: -5, offset: 2, pos: new Vector3(), scale: 0.8, factor: 2.5 },
     { x: 0, offset: 3.2, pos: new Vector3(), scale: 0.8, factor: 1.75 },

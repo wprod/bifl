@@ -138,9 +138,12 @@ function App() {
         concurrent
         pixelRatio={1}
         orthographic
-        camera={{ zoom: state.zoom, position: [0, 0, 500] }}>
+        camera={{ zoom: state.zoom, position: [0, 0, 500] }}
+      >
         <ambientLight intensity={2} />
+
         <pointLight position={[40, 40, 40]} />
+
         <Suspense fallback={<Dom center className="loading" children="Chargement..." />}>
           <Content />
           <Eggplant />
