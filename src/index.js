@@ -98,7 +98,7 @@ function Content() {
           lineHeight={w / 4}
           position={[-w / 3.5, 0, -1]}
           color="#ee62ff"
-          text={"spread\nshare\nbifls"}
+          text={"sharing"}
         />
       </Block>
 
