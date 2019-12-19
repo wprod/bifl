@@ -118,7 +118,7 @@ function Content() {
         </Block>
       ))}
 
-      <Block factor={1.25} offset={6}>
+      <Block factor={1.25} offset={7}>
         <Dom className="bottom-left" position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
           Bifl
         </Dom>
@@ -168,12 +168,10 @@ function App() {
 
         <div className="frame__nav">
           <a className="frame__link" href="#00" children="Accueil" />
-          <a className="frame__link" href="#01" children="01" />
-          <a className="frame__link" href="#02" children="02" />
-          <a className="frame__link" href="#03" children="03" />
-          <a className="frame__link" href="#04" children="04" />
-          <a className="frame__link" href="#05" children="05" />
-          <a className="frame__link" href="#07" children="06" />
+          <a className="frame__link" href="#01" children="Motivez" />
+          <a className="frame__link" href="#02" children="Reconnaissance" />
+          <a className="frame__link" href="#03" children="Engagement" />
+          <a className="frame__link" href="#04" children="Suivis" />
         </div>
       </div>
     </>
