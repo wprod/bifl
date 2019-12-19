@@ -94,8 +94,8 @@ function Content() {
         <MultilineText
           top
           left
-          size={w * 0.15}
-          lineHeight={w / 3.5}
+          size={w * 0.12}
+          lineHeight={w / 4}
           position={[-w / 3.5, 0, -1]}
           color="#ee62ff"
           text={"spread\nshare\nbifls"}

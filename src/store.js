@@ -45,7 +45,7 @@ const state = {
   ],
   stripes: [
     // { offset: 0, color: "#ffca52", height: 13 },
-    // { offset: 6, color: "#2c2c67", height: 20 }
+    { offset: 5.5, color: "#2c2c67", height: 20 }
   ],
   eggPlants: [
     { x: 1.3, offset: 0.1, pos: new Vector3(), scale: 1.2, factor: 1.8 },
