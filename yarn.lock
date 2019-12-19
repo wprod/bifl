@@ -8239,7 +8239,7 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
-prettier@1.19.1:
+prettier@^1.19.1:
   version "1.19.1"
   resolved "https://npm.wizbii.us/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
@@ -8641,6 +8641,11 @@ react-three-fiber@^4.0.0-beta.12:
     resize-observer-polyfill "^1.5.1"
     scheduler "0.17.0"
     tiny-emitter "^2.1.0"
+
+react-use-gesture@6.0.14:
+  version "6.0.14"
+  resolved "https://npm.wizbii.us/react-use-gesture/-/react-use-gesture-6.0.14.tgz#ab2d35ef72a5fb6060a6160eb12568c276f8a4b1"
+  integrity sha512-d9cnZJ0DOFd3FIO76J776DyhtbODgbxGKu19lvc1aSNTnRV5EKr9V4Uda188l2Qh0Va3pqWGxEQlw72r2cmnFQ==
 
 react-use-measure@^2.0.0:
   version "2.0.0"

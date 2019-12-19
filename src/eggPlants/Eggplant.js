@@ -13,7 +13,7 @@ export default function Eggplant() {
 
   useMemo(() => gltf.scene.children[0].geometry.center(), []);
 
-  const { gl, scene, camera, clock, mouse } = useThree();
+  const { gl, scene, camera, clock } = useThree();
   const { contentMaxWidth, sectionHeight, mobile } = useBlock();
   const model = useRef();
 
@@ -32,7 +32,11 @@ export default function Eggplant() {
       dummy.position.copy(data.pos);
 
       if (i === 0) {
-        dummy.rotation.set(mouse.y, mouse.x - Math.PI, -Math.PI / 4);
+        dummy.rotation.set(
+          state.top.current / 300,
+          state.top.current / 300 - Math.PI + time / 2,
+          -Math.PI / 4 + time / 4
+        );
       } else if (i === state.eggPlants.length - 1) {
         dummy.rotation.set(0, time, 0);
       } else dummy.rotation.set(time, time, time);

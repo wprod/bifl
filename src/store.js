@@ -35,15 +35,6 @@ const state = {
     },
     {
       offset: 4,
-      factor: 2.0,
-      header: "Récompense",
-      image: "/4.jpg",
-      aspect: 0.665,
-      text:
-        "Biffle est votre système de reconnaissance collaborative qui encourage, récompense et mesure l'engagement de vos collaborateurs"
-    },
-    {
-      offset: 5,
       factor: 1.75,
       header: "Suivez les dynamiques",
       image: "/6.jpg",
@@ -54,7 +45,7 @@ const state = {
   ],
   stripes: [
     { offset: 0, color: "#ffca52", height: 13 },
-    { offset: 6.3, color: "#2c2c67", height: 20 }
+    { offset: 6, color: "#2c2c67", height: 20 }
   ],
   eggPlants: [
     { x: 1.3, offset: 0.1, pos: new Vector3(), scale: 1.2, factor: 1.8 },
@@ -62,7 +53,7 @@ const state = {
     { x: -5, offset: 2, pos: new Vector3(), scale: 0.8, factor: 2.5 },
     { x: 0, offset: 3.2, pos: new Vector3(), scale: 0.8, factor: 1.75 },
     { x: 0, offset: 4, pos: new Vector3(), scale: 0.8, factor: 2.5 },
-    { x: 2, offset: 5.5, pos: new Vector3(), scale: 1.25, factor: 0.85 },
+    { x: 2, offset: 6, pos: new Vector3(), scale: 1.25, factor: 0.85 },
     { x: 0, offset: 7, pos: new Vector3(), scale: 1.5, factor: 6 }
   ],
   top: createRef()

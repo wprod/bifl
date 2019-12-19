@@ -36,6 +36,7 @@ function Paragraph({ image, index, offset, factor, header, aspect, text }) {
           scale={[w * size, (w * size) / aspect, 1]}
           frustumCulled={false}
         />
+
         <Dom
           style={{ width: pixelWidth / (mobile ? 1 : 2), textAlign: left ? "left" : "right" }}
           position={[left || mobile ? (-w * size) / 2 : 0, (-w * size) / 2 / aspect - 0.4, 1]}>
@@ -45,7 +46,7 @@ function Paragraph({ image, index, offset, factor, header, aspect, text }) {
         <Text
           left={left}
           right={!left}
-          size={w * 0.04}
+          size={w * 0.05}
           color={color}
           top
           position={[((left ? -w : w) * size) / 2, (w * size) / aspect / 2 + 0.5, -1]}>
@@ -55,8 +56,8 @@ function Paragraph({ image, index, offset, factor, header, aspect, text }) {
         <Block factor={0.2}>
           <Text
             opacity={0.5}
-            size={w * 0.1}
-            color="#1A1E2A"
+            size={w * 0.2}
+            color="#ffca52"
             position={[((left ? w : -w) / 2) * size, (w * size) / aspect / 1.5, -10]}>
             {"0" + (index + 1)}
           </Text>
@@ -84,12 +85,12 @@ function Content() {
 
         <Block factor={1.0}>
           <Dom position={[-w / 3.2, -w * 0.08 + 1.4, -1]}>
-            Motivez vos équipes grâce à la{mobile ? <br /> : " "}reconnaissance
+            Team motivation powered{mobile ? <br /> : " "} by recognition
           </Dom>
         </Block>
       </Block>
 
-      <Block factor={1.2} offset={5.7}>
+      <Block factor={1.2} offset={5.9}>
         <MultilineText
           top
           left
@@ -97,7 +98,7 @@ function Content() {
           lineHeight={w / 3.5}
           position={[-w / 3.5, 0, -1]}
           color="#ee62ff"
-          text={"work\nweb\nbifl"}
+          text={"spread\nshare\nbifls"}
         />
       </Block>
 
@@ -138,8 +139,7 @@ function App() {
         concurrent
         pixelRatio={1}
         orthographic
-        camera={{ zoom: state.zoom, position: [0, 0, 500] }}
-      >
+        camera={{ zoom: state.zoom, position: [0, 0, 500] }}>
         <ambientLight intensity={2} />
 
         <pointLight position={[40, 40, 40]} />
@@ -158,7 +158,7 @@ function App() {
       </div>
 
       <div className="frame">
-        <h1 className="frame__title">Bifl</h1>
+        <h1 className="frame__title">Home</h1>
 
         <div className="frame__links">
           <a className="frame__link" href="#">
