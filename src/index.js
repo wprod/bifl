@@ -98,7 +98,7 @@ function Content() {
           lineHeight={w / 4}
           position={[-w / 3.5, 0, -1]}
           color="#ee62ff"
-          text={"sharing"}
+          text={"sharing\nthe\nlove"}
         />
       </Block>
 
@@ -158,7 +158,7 @@ function App() {
       </div>
 
       <div className="frame">
-        <h1 className="frame__title">Home</h1>
+        <h1 className="frame__title">Accueil</h1>
 
         <div className="frame__links">
           <a className="frame__link" href="#">
@@ -167,11 +167,11 @@ function App() {
         </div>
 
         <div className="frame__nav">
-          <a className="frame__link" href="#00" children="Accueil" />
-          <a className="frame__link" href="#01" children="Motivez" />
-          <a className="frame__link" href="#02" children="Reconnaissance" />
-          <a className="frame__link" href="#03" children="Engagement" />
-          <a className="frame__link" href="#04" children="Suivis" />
+          <a className="frame__link" href="#00" children="1" />
+          <a className="frame__link" href="#01" children="2" />
+          <a className="frame__link" href="#02" children="3" />
+          <a className="frame__link" href="#03" children="4" />
+          <a className="frame__link" href="#04" children="5" />
         </div>
       </div>
     </>
