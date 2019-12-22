@@ -57,7 +57,7 @@ function Paragraph({ image, index, offset, factor, header, aspect, text }) {
           <Text
             opacity={0.5}
             size={w * 0.2}
-            color="#ffca52"
+            color="#ee62ff"
             position={[((left ? w : -w) / 2) * size, (w * size) / aspect / 1.5, -10]}>
             {"0" + (index + 1)}
           </Text>
@@ -72,8 +72,10 @@ function Content() {
     TextureLoader,
     state.paragraphs.map(({ image }) => image)
   );
+
   useMemo(() => images.forEach(texture => (texture.minFilter = LinearFilter)), [images]);
   const { contentMaxWidth: w, canvasWidth, canvasHeight, mobile } = useBlock();
+
   return (
     <>
       <Block factor={1} offset={0}>
