@@ -8,7 +8,8 @@ import Plane from "./components/Plane";
 import { Block, useBlock } from "./blocks";
 import state from "./store";
 import "./styles.css";
-import Eggplant from "./eggPlants/Eggplant";
+import Eggplant from "./components/Eggplant";
+import Brain from "./components/Brain";
 
 function Startup() {
   const ref = useRef();
@@ -81,7 +82,7 @@ function Content() {
       <Block factor={1} offset={0}>
         <Block factor={1.2}>
           <Text left size={w * 0.12} position={[-w / 3.2, 2, -1]} color="#ee62ff">
-            BIFL
+            Lab
           </Text>
         </Block>
 
@@ -122,7 +123,7 @@ function Content() {
 
       <Block factor={1.25} offset={7}>
         <Dom className="bottom-left" position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
-          Bifl
+          Lab
         </Dom>
       </Block>
     </>
@@ -148,7 +149,8 @@ function App() {
 
         <Suspense fallback={<Dom center className="loading" children="Chargement..." />}>
           <Content />
-          <Eggplant />
+          {/*<Eggplant />*/}
+          <Brain />
           <Startup />
         </Suspense>
       </Canvas>
