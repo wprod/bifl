@@ -1,4 +1,4 @@
-# Biffle
+# Bifl
 
 This project is set up with [react-three-fiber](https://github.com/react-spring/react-three-fiber)
 
