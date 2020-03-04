@@ -20,12 +20,10 @@ function Text({
   ...props
 }) {
   const data = useLoader(FontLoader, font);
-
   const geom = usePromise(
     () => new Promise(res => res(new TextBufferGeometry(children, { font: data, size: 1, height, curveSegments: 32 }))),
     [children]
   );
-
   const onUpdate = useCallback(
     self => {
       const box = new Vector3();
@@ -39,7 +37,6 @@ function Text({
 
   const ref = useRef();
   let last = state.top.current;
-
   useFrame(() => {
     ref.current.shift = lerp(ref.current.shift, (state.top.current - last) / 100, 0.1);
     last = state.top.current;
