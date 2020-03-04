@@ -16,7 +16,7 @@ function Text({
   opacity = 1,
   height = 0.01,
   layers = 0,
-  font = "/font/montserrat.blob",
+  font = "/MOONGET_Heavy.blob",
   ...props
 }) {
   const data = useLoader(FontLoader, font);

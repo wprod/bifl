@@ -10,7 +10,7 @@ const state = {
       offset: 1,
       factor: 1.75,
       header: "Motivez vos équipes",
-      image: "/img/1.jpg",
+      image: "/1.jpg",
       aspect: 1.51,
       text:
         "Améliorez l'engagement de vos collaborateurs en reconnaissant et valorisant ce qui compte pour votre entreprise"
@@ -19,7 +19,7 @@ const state = {
       offset: 2,
       factor: 2.0,
       header: "Reconnaissance",
-      image: "/img/3.jpg",
+      image: "/3.jpg",
       aspect: 1.5,
       text:
         "Encouragez la reconnaissance entre pairs dans vos équipes et développez une culture du feedback en lien avec vos valeurs"
@@ -28,7 +28,7 @@ const state = {
       offset: 3,
       factor: 2.25,
       header: "Engagement",
-      image: "/img/5.jpg",
+      image: "/5.jpg",
       aspect: 1.5037,
       text:
         "Valorisez les comportements engagés. Assurez la visibilité de vos objectifs pour aligner vos équipes sur vos enjeux globaux, et remerciez les salariés engagés"
@@ -37,13 +37,16 @@ const state = {
       offset: 4,
       factor: 1.75,
       header: "Suivez les dynamiques",
-      image: "/img/6.jpg",
+      image: "/6.jpg",
       aspect: 1.55,
       text:
         "Mesurez l'impact de vos initiatives, suivez les dynamiques d'équipe et donnez du pouvoir à vos collaborateurs"
     }
   ],
-  stripes: [{ offset: 5.5, color: "#2c2c67", height: 20 }],
+  stripes: [
+    // { offset: 0, color: "#ffca52", height: 13 },
+    { offset: 5.5, color: "#2c2c67", height: 20 }
+  ],
   eggPlants: [
     { x: 1.3, offset: 0.1, pos: new Vector3(), scale: 1.2, factor: 1.8 },
     { x: 2, offset: 1.1, pos: new Vector3(), scale: 0.8, factor: 2.1 },

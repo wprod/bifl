@@ -9,7 +9,7 @@ import state from "../store";
 const dummy = new Object3D();
 
 export default function Eggplant() {
-  const gltf = useLoader(GLTFLoader, "/gltf/eggplant/Eggplant.gltf");
+  const gltf = useLoader(GLTFLoader, "/gltf/Eggplant.gltf");
 
   useMemo(() => gltf.scene.children[0].geometry.center(), []);
 
