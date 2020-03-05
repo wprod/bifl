@@ -160,11 +160,9 @@ function App() {
       </div>
 
       <div className="frame">
-        <h1 className="frame__title">Accueil</h1>
-
         <div className="frame__links">
           <a className="frame__link" href="#">
-            Plugin slack
+            <img className="slack-icon" src="./slack.svg" />
           </a>
         </div>
 
