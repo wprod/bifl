@@ -1,7 +1,7 @@
 # Bifl (yes it's a troll)
 
 This project is set up with [react-three-fiber](https://github.com/react-spring/react-three-fiber)
-Deployed from [netlify](https://www.netlify.com/) at [musing-hodgkin]https://musing-hodgkin-f5973c.netlify.com/]
+Deployed from [netlify](https://www.netlify.com/) at [musing-hodgkin](https://musing-hodgkin-f5973c.netlify.com)
 
 ## 🚀 Quick start
 
