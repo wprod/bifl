@@ -85,8 +85,10 @@ function Content() {
 
         <Block factor={1.0}>
           <Dom position={[-w / 3.2, -w * 0.09 + 1.4, -1]}>
-            <p style={{ fontSize: "1.8rem", fontWeight: "bold" }}>
-              Team motivation powered{mobile ? <br /> : " "} by recognition
+            <p style={{ fontSize: "1.8rem" }}>
+              Team <b>motivation</b> powered
+              <br />
+              by recognition
             </p>
           </Dom>
         </Block>
@@ -122,7 +124,7 @@ function Content() {
 
       <Block factor={1.25} offset={7}>
         <Dom className="bottom-left" position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
-          Bifl
+          Bifl © Copyright 1995 - 2020
         </Dom>
       </Block>
     </>
@@ -164,14 +166,6 @@ function App() {
           <a className="frame__link" href="#">
             <img className="slack-icon" src="./slack.svg" />
           </a>
-        </div>
-
-        <div className="frame__nav">
-          <a className="frame__link" href="#00" children="1" />
-          <a className="frame__link" href="#01" children="2" />
-          <a className="frame__link" href="#02" children="3" />
-          <a className="frame__link" href="#03" children="4" />
-          <a className="frame__link" href="#04" children="5" />
         </div>
       </div>
     </>
