@@ -85,10 +85,8 @@ function Content() {
 
         <Block factor={1.0}>
           <Dom position={[-w / 3.2, -w * 0.09 + 1.4, -1]}>
-            <p style={{ fontSize: "1.8rem" }}>
-              Team <b>motivation</b> powered
-              <br />
-              by recognition
+            <p style={{ fontSize: `${mobile ? "1.2rem" : "1.8rem"}`, width: "40vw", maxWidth: "30rem" }}>
+              Team <b>motivation</b> powered by recognition
             </p>
           </Dom>
         </Block>
